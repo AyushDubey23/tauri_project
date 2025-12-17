@@ -28,29 +28,6 @@ The project demonstrates microphone audio capture, speech recognition using a cl
 
 ---
 
-## Project Structure
-
-real-time-transcription-app/
-│
-├── app/ Next.js app router pages
-├── components/ UI components
-├── hooks/ Custom React hooks
-├── lib/ Utility functions
-├── public/ Static assets
-├── styles/ Global styles
-├── out/ Static export output
-├── src-tauri/ Tauri configuration and Rust backend
-│
-├── next.config.mjs
-├── package.json
-├── tsconfig.json
-└── README.md
-
-yaml
-Copy code
-
----
-
 ## Prerequisites
 
 Ensure the following are installed on your system:
@@ -59,27 +36,22 @@ Ensure the following are installed on your system:
 node -v
 npm -v
 
-shell
-Copy code
 
 ### Rust (required for Tauri)
 rustc --version
 
-csharp
-Copy code
+
 
 If Rust is not installed:
 winget install Rustlang.Rustup
 
-python
-Copy code
+
 
 ### Visual Studio Build Tools (Windows)
 Install Desktop development with C++ from:
 https://aka.ms/vs/17/release/vs_BuildTools.exe
 
-yaml
-Copy code
+
 
 Required components:
 - MSVC v143
@@ -99,8 +71,6 @@ Restart the system after installation.
 
 NEXT_PUBLIC_DEEPGRAM_API_KEY=dg_your_api_key_here
 
-yaml
-Copy code
 
 Do not expose or commit the API key in production projects.
 
@@ -111,14 +81,11 @@ Do not expose or commit the API key in production projects.
 ### Install dependencies
 npm install
 
-graphql
-Copy code
 
 ### Run in browser (development)
 npm run dev
 
-yaml
-Copy code
+
 
 ---
 
@@ -127,30 +94,22 @@ Copy code
 ### Build Next.js static export
 npm run build
 
-csharp
-Copy code
 
 This generates the `out/` directory used by Tauri.
 
 ### Run desktop application
 tauri dev
 
-shell
-Copy code
 
 This opens the application in a native desktop window.
 
 ### Build final executable
 tauri build
 
-yaml
-Copy code
 
 The executable will be located at:
 src-tauri/target/release/
 
-yaml
-Copy code
 
 ---
 
@@ -181,3 +140,4 @@ The implementation aligns with the objective of building a Voice-to-Text Desktop
 
 Ayush Dubey  
 GitHub: https://github.com/AyushDubey23
+
