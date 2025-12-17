@@ -1,0 +1,3 @@
+module.exports=[51604,a=>{a.n(a.i(74968))},36022,a=>{a.n(a.i(58070))},70309,a=>{a.n(a.i(28737))},22322,a=>{a.n(a.i(7442))},66,a=>{a.n(a.i(3415))},3415,(a,b,c)=>{"use strict";Object.defineProperty(c,"__esModule",{value:!0}),Object.defineProperty(c,"default",{enumerable:!0,get:function(){return f}});let d=a.r(96785),e=a.r(43076);function f(){return(0,d.jsx)(e.HTTPAccessErrorFallback,{status:401,message:"You're not authorized to access this page."})}("function"==typeof c.default||"object"==typeof c.default&&null!==c.default)&&void 0===c.default.__esModule&&(Object.defineProperty(c.default,"__esModule",{value:!0}),Object.assign(c.default,c),b.exports=c.default)}];
+
+//# sourceMappingURL=OneDrive_Desktop_assignment_real-time-transcription-app_ab870346._.js.map

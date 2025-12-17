@@ -1,0 +1,3 @@
+module.exports=[1566,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(58241);a.n(d("[project]/OneDrive/Desktop/assignment/real-time-transcription-app/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},20099,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(58241);a.n(d("[project]/OneDrive/Desktop/assignment/real-time-transcription-app/node_modules/next/dist/client/components/builtin/global-error.js"))},74968,a=>{"use strict";a.i(1566);var b=a.i(20099);a.n(b)}];
+
+//# sourceMappingURL=763f1_next_dist_client_components_builtin_global-error_fc3b2308.js.map

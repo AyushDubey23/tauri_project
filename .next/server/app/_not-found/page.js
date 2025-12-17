@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/OneDrive_Desktop_assignment_real-time-transcription-app_ab870346._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0d888100._.js")
+R.c("server/chunks/ssr/763f1_next_dist_esm_build_templates_app-page_a786fc58.js")
+R.c("server/chunks/ssr/[root-of-the-server]__6ad020d4._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__651f0a0f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__836121d1._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__d6685a76._.js")
+R.c("server/chunks/ssr/763f1_next_dist_client_components_c24c1e37._.js")
+R.c("server/chunks/ssr/763f1_next_dist_client_components_builtin_forbidden_50f3bc1e.js")
+R.c("server/chunks/ssr/03181_ime-transcription-app__next-internal_server_app__not-found_page_actions_dc11d61b.js")
+R.m(11083)
+module.exports=R.m(11083).exports
